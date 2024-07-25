@@ -11,6 +11,8 @@ Run the following commands:
 # Steps to install iterm2, oh my zsh, a zsh theme, and some zsh plugins
 ## iterm2 installation
 ```
-brew install --cask iterm2
-using --cask with the installation is meant for gui application installations
+>> brew install --cask iterm2
 ```
+^ using '--cask' with the installation is meant for gui application installations
+
+# 
