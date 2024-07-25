@@ -13,6 +13,6 @@ Run the following commands:
 ```
 >> brew install --cask iterm2
 ```
-^ using '--cask' with the installation is meant for gui application installations
+**note to self: using '--cask' with the installation is meant for gui application installations
 
 # 
