@@ -13,6 +13,6 @@ Run the following commands:
 ```
 >> brew install --cask iterm2
 ```
-**note to self: using '--cask' with the installation is meant for gui application installations
+**note to self: using '--cask' with the installation is meant for gui application installations, where as using just 'brew install ...' installs a formulae/library/extension, like git, bash, node, etc.
 
 # 
