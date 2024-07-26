@@ -7,7 +7,7 @@ Run the following commands:
 >> echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
 >> eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
-# <!-- -->
+# <!-- just a commented-out line here adds the underline bar for a header -->
 
 # Steps to install iterm2, oh my zsh, a zsh theme, and some zsh plugins
 ## iterm2 installation
