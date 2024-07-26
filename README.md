@@ -50,7 +50,7 @@ source ~/.zshrc
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-> auto-suggestions displays at least the last visted file location as a suggested location to change directories to
+> displays at least the last visted file location as a suggested location to change directories to
 
 ### 'zsh-syntax-highlighting'
 ```
