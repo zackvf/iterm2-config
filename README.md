@@ -76,7 +76,7 @@ curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coo
 ```
 > after downloading, open iterm2 settings > profiles > default > colors > ansi colors color presets > import > select the desired .itermcolors file
 
-#### link to find more color themes to install
+#### link to find more color themes
 ```
 https://iterm2colorschemes.com/
 ```
