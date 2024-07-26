@@ -27,6 +27,8 @@ brew install --cask iterm2
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+> curl is the most widely-used data transfer engine for software applications
+> read more here: https://curl.se/
 
 ## zsh theme installation - powerlevel10k
 ```
