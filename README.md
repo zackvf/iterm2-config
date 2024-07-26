@@ -16,7 +16,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 # Steps to install iterm2, oh my zsh, a zsh theme, and zsh plugins
-## iterm2 installation
+## iterm2 installation (using the regular terminal)
 ```
 brew install --cask iterm2
 ```
