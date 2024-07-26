@@ -31,7 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
-#### add the theme to the zsh rc file and reload it:
+#### add the theme to the zsh config file and reload it:
 ```
 code ~/.zshrc
 ```
@@ -55,7 +55,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-#### add the plugins to the zsh rc file and reload it:
+#### add the plugins to the zsh config file and reload it:
 ```
 code ~/.zshrc
 ```
