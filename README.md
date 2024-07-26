@@ -16,29 +16,29 @@ brew install --cask iterm2
 
 > note to self: using '--cask' with the installation is meant for gui application installations, where as using just 'brew install ...' installs a formulae/library/extension, like git, bash, node, etc.
 
-# oh my zsh installation
+## oh my zsh installation
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-# zsh theme installation - powerlevel10k
+## zsh theme installation - powerlevel10k
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
-# zsh plugin installations
-## zsh-autosuggestions
+## zsh plugin installations
+### zsh-autosuggestions
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 > note to self: auto-suggestions displays at least the last visted file location as a suggested location to change directories to
 
-## zsh-syntax-highlighting
+### zsh-syntax-highlighting
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-### update the zsh rc file and reload it:
+#### update the zsh rc file and reload it:
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ...
