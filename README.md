@@ -14,7 +14,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --cask iterm2
 ```
 
->note to self: using '--cask' with the installation is meant for gui application installations, where as using just 'brew install ...' installs a formulae/library/extension, like git, bash, node, etc.
+> note to self: using '--cask' with the installation is meant for gui application installations, where as using just 'brew install ...' installs a formulae/library/extension, like git, bash, node, etc.
 
 # oh my zsh installation
 ```
