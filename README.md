@@ -39,6 +39,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 <br />
 update the zsh rc file and reload it:
+<br />
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
