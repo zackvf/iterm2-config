@@ -1,5 +1,11 @@
 # iterm2-config
-My personal configuration settings for the macOS terminal replacement iterm2, saved here for easy access on any macbook. Assumes the latest version of Homebrew and Git are already installed.
+My personal configuration settings for the macOS terminal replacement iterm2, saved here for easy access on any macbook. 
+
+Assumes the following are already installed/configured:
+- Latest version of Homebrew
+- Latest version of git
+- Latest version of VS Code
+- VS Code configured with "code" command installed in the macOS PATH
 
 If Homebrew needs to be added to the macOS PATH, do this before the steps below:
 ```
@@ -28,12 +34,15 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 
 #### add the theme to the zsh rc file and reload it:
 ```
+code ~/.zshrc
+```
+```
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 ```
 source ~/.zshrc
 ```
-> note to self: when prompted, input y to install the meslo nerd font, and then restart iterm2 to begin the config process for pl10k 
+> note to self: when prompted, input y to install the meslo nerd font and then restart iterm2 to begin the config process for pl10k 
 
 ## zsh plugin installations
 ### 'zsh-autosuggestions'
@@ -48,6 +57,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 
 #### add the plugins to the zsh rc file and reload it:
+```
+code ~/.zshrc
+```
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```
