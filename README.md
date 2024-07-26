@@ -74,9 +74,7 @@ source ~/.zshrc
 ```
 curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
 ```
-```
-iterm2 settings > profiles > default > colors > ansi colors color presets > import > select the desired .itermcolors file
-```
+> after downloading, open iterm2 settings > profiles > default > colors > ansi colors color presets > import > select the desired .itermcolors file
 
 #### link to find more color themes to install
 ```
