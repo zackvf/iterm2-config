@@ -10,6 +10,8 @@ Assumes the following are already installed/configured:
 If Homebrew needs to be added to the macOS PATH, do this before the steps below:
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
+```
+```
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
