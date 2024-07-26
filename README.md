@@ -27,6 +27,13 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 ```
 
 # zsh plugin installations
+## zsh-autosuggestions
 ```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+> note to self: auto-suggestions displays at least the last visted file location as a suggested location to change directories to
 
+## zsh-syntax-highlighting
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
