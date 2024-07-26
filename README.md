@@ -5,7 +5,7 @@ Assumes the following are already installed/configured:
 - Latest version of Homebrew (best/most widely adopted macOS spm)
 - Latest version of git (best/most widely adopted file version control manager, makes installing software from github brainless)
 - Latest version of VS Code (not required, just the easiest editor to install for free and use out-of-the-box)
-- VS Code configured with "code" command installed in the macOS PATH
+- VS Code configured with "code" command installed in the macOS PATH (lets you open the app from the terminal for quick file editing)
 
 If Homebrew needs to be added to the macOS PATH on a new macbook, do this before the steps below:
 ```
