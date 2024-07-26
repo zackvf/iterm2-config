@@ -2,12 +2,12 @@
 My personal configuration settings for the macOS terminal replacement iterm2, saved here for easy access on any macbook. 
 
 Assumes the following are already installed/configured:
-- Latest version of Homebrew
-- Latest version of git
-- Latest version of VS Code
+- Latest version of Homebrew (best/most widely adopted macOS spm)
+- Latest version of git (best/most widely adopted file version control manager, makes installing software from github brainless)
+- Latest version of VS Code (not required, just the easiest editor to install for free and use out-of-the-box)
 - VS Code configured with "code" command installed in the macOS PATH
 
-If Homebrew needs to be added to the macOS PATH, do this before the steps below:
+If Homebrew needs to be added to the macOS PATH on a new macbook, do this before the steps below:
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
 ```
