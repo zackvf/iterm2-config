@@ -33,6 +33,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 source ~/.zshrc
 ```
+> when prompted, input y to install the meslo nerd font, and then restart iterm2 to begin the config process for pl10k 
 
 ## zsh plugin installations
 ### 'zsh-autosuggestions'
