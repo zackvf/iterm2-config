@@ -3,7 +3,6 @@ My personal configuration settings for the macOS terminal replacement iterm2, sa
 
 If Homebrew needs to be added to the macOS PATH, do this before the steps below:
 ```
-Run the following commands:
 >> echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
 >> eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
