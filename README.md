@@ -21,7 +21,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --cask iterm2
 ```
 
-> note to self: using '--cask' with the installation is meant for gui application installations, where as using just 'brew install ...' installs a formulae/library/extension, like git, bash, node, etc.
+> using '--cask' with the installation is meant for gui application installations, where as using just 'brew install ...' installs a formulae/library/extension, like git, bash, node, etc.
 
 ## oh my zsh installation
 ```
@@ -43,19 +43,20 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 source ~/.zshrc
 ```
-> note to self: when prompted, input y to install the meslo nerd font and then restart iterm2 to begin the config process for pl10k 
+> when prompted, input y to install the meslo nerd font and then restart iterm2 to begin the config process for pl10k 
 
 ## zsh plugin installations
 ### 'zsh-autosuggestions'
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-> note to self: auto-suggestions displays at least the last visted file location as a suggested location to change directories to
+> auto-suggestions displays at least the last visted file location as a suggested location to change directories to
 
 ### 'zsh-syntax-highlighting'
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+> highlights terminal commands
 
 #### add the plugins to the zsh config file and reload it:
 ```
@@ -66,4 +67,15 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```
 ```
 source ~/.zshrc
+```
+
+## additional options and notes
+#### set the color theme to a pre-made config
+```
+curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
+```
+
+#### link to find more color themes to install
+```
+https://iterm2colorschemes.com/
 ```
