@@ -11,9 +11,11 @@ If Homebrew needs to be added to the macOS PATH on a new macbook, do this before
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
 ```
+> 'echo' command can create and write to a new file, or append a line of text to an existing file. in this instance, we're appending with ">>" as opposed to using ">" for creating new files
 ```
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+> 'eval' command runs a command after it's variables are set with variable expansion
 
 # Steps to install iterm2, oh my zsh, a zsh theme, and zsh plugins
 ## iterm2 installation (using the regular terminal)
