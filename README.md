@@ -54,7 +54,7 @@ source ~/.zshrc
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-> displays the last visted file location as a suggested location to change directories to as well as copied content from the clipboard
+> displays the last visted directory as a suggested location as well as clipboard content
 
 ### 'zsh-syntax-highlighting'
 ```
