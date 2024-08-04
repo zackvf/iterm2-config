@@ -31,7 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 > curl is the most widely-used data transfer engine for software applications <br />
 > read more here > curl dot se
 
-## zsh theme installation - powerlevel10k
+## zsh theme installation (powerlevel10k)
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
